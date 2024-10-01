@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a9e6ef;
+}
+#contenedor-productos {
+    display: flex;
+}
+.prod-img {
+    width: 140px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.prod-description {
+    margin-top: 10px;
+}
+.tool-nombre{
+    text-align: center;
+}
+.tool-price{
+    text-align: center;
+}
+label{
+    margin: 10px;
+}
+#ordenar-precio{
+    margin-top: 10px;
+}
+button{
+    margin-left: 70px;
+}
+/*--- HEADER ---*/
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 5px 0px;
+}
+/*--- NAVBAR ---*/
+.nav_container {
+    display: flex;
+    align-items: center;
+}
+.nav_ul {
+    display: flex;
+    list-style: none;
+    width: 500px;
+    padding: 5px;
+    margin-left: 350px;
+}
+.nav_item{
+    padding: 10px;
+}
+.enlace {
+    color: #000;
+    text-decoration: none;
+}
+.enlace:hover{
+    opacity: 0.6;
+    text-decoration: underline;
+}
+/*--- CARD-PRODUCTOS ---*/
+.card {
+    margin: 20px;
+    padding: 20px;
+    width: 185px;
+    height: 200px;
+    border-radius:5px;
+    background-color: #fff;
+}
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+/*--- CARRITO ---*/
+.carrito {
+    display: inline;
+}
+.carrito_logo {
+    width: 40px;
+    border-radius: 5px;
+}

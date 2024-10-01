@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ferreteria Ecommerce</title>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+            <nav class="nav_bar">
+                <ul class="nav_ul">
+                    <li class="nav_item"><a class="enlace" href="index.html">Inicio</a></li>
+                    <li class="nav_item"><a class="enlace" href="tienda.html">Tienda</a></li>
+                    <li class="nav_item"><a class="enlace" href="nosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="carrito">
+              <a href="carrito.html">
+                <img src="" class="carrito_logo">
+              </a>
+            </div>
+        </div>
+    </header>
+    
+    <div>
+        <label for="ordenar-precio">Ordenar por precio:</label>
+        <select id="ordenar-precio">
+            <option value="menor-mayor">De menor a mayor</option>
+            <option value="mayor-menor">De mayor a menor</option>
+        </select>
+    </div>
+
+    <div id="contenedor-productos"></div>
+
+    <script src="datos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
